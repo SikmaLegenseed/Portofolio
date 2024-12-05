@@ -5,7 +5,7 @@
 }
 
 body{
-    background-color: #FFF6E3;
+    background-color: #181C14;
 }
 
 header > h1{
@@ -20,7 +20,7 @@ h1{
 
 a{
     text-decoration: none;
-    color: black;
+    color: #F5F5F5;
 }
 
 p{
@@ -79,11 +79,18 @@ nav{
 
 
 nav > a{ /*nav > a artinya semua a di nav*/
-    color: black;
+    color: #F5F5F5;
     margin-left: 12px;
     /* border: 2px solid #ffc108; */
     padding: 8px 24px;
     justify-content: space-evenly;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    align-items: center;
+}
+
+nav > a:hover{
     /* display: inline-flexbox; */
     /* border-radius: 20px; */
 
@@ -95,11 +102,19 @@ nav > a{ /*nav > a artinya semua a di nav*/
 }
 
 .my-certificate{
+    color: #F5F5F5;
+    text-align: center;
+    margin: 32px 0 0 0;
+}
+
+.my-education{
+    color: #F5F5F5;
     text-align: center;
     margin: 32px 0 0 0;
 }
 
 .my-project{
+    color: #F5F5F5;
     text-align: center;
     margin: 32px 0 0 0;
 }
@@ -115,7 +130,9 @@ nav > a{ /*nav > a artinya semua a di nav*/
 
 .img-profile{
     border-radius: 50%;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    margin-top: 15px;
+    filter: drop-shadow(1px 1px 20px white);
 }
 
 .education{
@@ -150,6 +167,10 @@ nav > a{ /*nav > a artinya semua a di nav*/
 
 .card p{
     margin: 0;
+}
+
+.card > h3{
+    color: #F5F5F5;
 }
 
 .container-certificate{
@@ -200,6 +221,10 @@ nav > a{ /*nav > a artinya semua a di nav*/
 .footer{
     text-align: center;
     margin: 32px 0 0 0;;
+}
+
+.footer-logo > img{
+    cursor: pointer ;
 }
 
 /* animation */

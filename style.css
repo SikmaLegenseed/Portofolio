@@ -225,14 +225,15 @@ nav > a:hover{
 
 .footer-logo > img{
     cursor: pointer;
-    filter: drop-shadow(1px 1px 20px white);
+    filter: drop-shadow(1px 1px 10px white);
+    /* mix-blend-mode: lighten; */
     margin-right: 20px;
 }
 
 /* animation */
 
 nav > a:hover {
-    box-shadow: 4px 4px 8px rgba(255, 193, 8, 0.8);
+    box-shadow: 2px 2px 8px rgba(255, 193, 8, 0.8);
     transform: translateY(-1px);
 }
 
